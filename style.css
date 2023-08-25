@@ -1,0 +1,30 @@
+body{
+	font-family:Montserrat;
+	margin:0;
+}
+
+#contenedor{
+height: 500px;
+}
+
+#contenedor img{
+	height: 550px;
+	}
+
+img{
+	width:100%;
+	vertical-align:top;
+}
+#ball{
+	display:flex;
+	justify-content:center;
+	
+}
+.ball{
+	width:13px;
+	height:13px;
+	border-radius:50%;	
+	background-color:white;
+	margin:8px 10px;
+	cursor:pointer;
+}
